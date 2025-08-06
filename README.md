@@ -82,3 +82,34 @@ DeepSORT/BoTSORT assigns each detection a unique, persistent ID for the whole vi
 
 ```bash
 python people_flow.py
+```
+### 2. Heatmap Generation
+
+```bash
+python heatmap.py
+```
+## 🖼️ Example Results
+
+**Annotated Video:**  
+[output/people_count_annotated.mp4](output/people_count_annotated.mp4)
+
+**Heatmap Overlay:**  
+[output/people_heatmap_overlay.mp4](output/people_heatmap_overlay.mp4)
+
+**Final Static Heatmap:**  
+![output/people_flow_heatmap.png](output/people_flow_heatmap.png)
+
+---
+
+## 📚 Credits
+
+- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+- [Supervision](https://github.com/roboflow/supervision)
+- [OpenCV](https://opencv.org/)
+- [PolygonZone](https://polygonzone.roboflow.com/)
+
+---
+
+## 🔗 Video Source
+
+Original demo video: [People Walking - Roboflow](https://media.roboflow.com/supervision/video-examples/people-walking.mp4)
