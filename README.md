@@ -1,21 +1,5 @@
 # 🧠 People Flow Detection using Object Tracking & Heatmap Visualization
 
-## 🎥 Demo Videos
-
-**Counting & Tracking Output (with live IN/OUT counters):**  
-[Download or View Output](output/people_count_annotated.mp4)
-
-**Heatmap Overlay Output:**  
-[Download or View Output](output/people_heatmap_overlay.mp4)
-
----
-
-## 🌡️ Final Static Heatmap
-
-![Final People Flow Heatmap](output/people_flow_heatmap.png)
-
----
-
 ## 🎯 Objective
 
 Build an automated system that:
