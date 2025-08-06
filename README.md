@@ -41,7 +41,7 @@ DeepSORT/BoTSORT assigns each detection a unique, persistent ID for the whole vi
 - **OUT:** If a person’s center moves upward across the OUT (lower) line and wasn’t counted before, OUT increases by 1
 
 **Lines:**  
-- Defined using pixel coordinates, determined by annotating on a frame or via [PolygonZone](https://polygonzone.roboflow.com/)
+- Defined using pixel coordinates, determined by annotating on a frame  via [PolygonZone](https://polygonzone.roboflow.com/)
 
 **Heatmap:**  
 - Accumulates detection centers for all tracked people, visualizes as a colored overlay (hotter = more presence/activity)
